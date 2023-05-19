@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/scss/styleCart.css">
+</head>
+<body>
+    <header class="header--flowers">
+        <div class="header--header">
+            <div style="display: flex;" class="name--shop">
+                <h1 class="text--shop">Plant </h1>
+                <h1 class="text--shop__sec"> Shop</h1>
+            </div>
+            <div class="link-shop">
+                <ul class="ul--in--link">
+                    <li><a href="/index.html">Home</a> </li>
+                    <li><a href="/indexshtml/indexShop.html">Shop</a> </li>
+                    <li><a href="">Blog</a> </li>
+                    <li><a href="">About</a> </li>
+                </ul>
+            </div>
+            <div class="ik--shop">
+                <a href="indexReg.html"><img src="/img/userMain.png" alt=""></a>
+                <a href="indexCart.html"><img src="/img/telege--main.png" alt=""></a>
+                
+            </div>
+        </div>
+    </header>
+    <div class="filter--section">
+            <div class="filter--text">
+                <img src="/img/ShoptextShop.png" alt="">
+                <select name="" id="mySelect" onclick="ShowHide()">
+                    <option value="option">Менее популярные</option>
+                    <option selected value="all">Все</option>
+                </select>
+            </div>
+            <div class="input--search">
+                <input placeholder="Search...." class="seacrhFl" type="text">
+                <img class="lupaShop" src="/img/lupaShop.png" alt="">
+            </div>
+
+        </div>
+    <section class="sectionShop--flowers">
+        
+        <div class="img--of--bestSellers">
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Daisy</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">1132$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="1">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Sun flower</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">322$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="2">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">White Rose</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">53$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="3">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Periwinkle</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">51$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="4">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="img--of--bestSellers">
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Daisy</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="5">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Sun flower</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="6">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">White Rose</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="7">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Periwinkle</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="8">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="img--of--bestSellers">
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Daisy</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="9">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Sun flower</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="10">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">White Rose</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="11">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Periwinkle</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="12">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="img--of--bestSellers">
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Daisy</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="13">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Sun flower</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="14"> Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">White Rose</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="15">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cart--of--flower">
+                <img class="imgOfFlaw" src="" alt="">
+                <p class="nameOfFlawor">Periwinkle</p>
+                <div class="bottom--of--card">
+                    <p class="costsFl">5$</p>
+                    <div style="display: flex;" class="div">
+                        <img class="img--telega" src="/img/telege--main.png" alt="">
+                        <h4 class="addCard" id="16">Add to cart</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/js/scriptMain.js"></script>
+</body>
+</html>
