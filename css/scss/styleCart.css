@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 1440px;
+  margin: 0 auto;
+}
+.header--header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background: rgba(250, 250, 250, 0.824);
+  height: 100px;
+  padding-bottom: 50px;
+}
+.text--shop {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #ff8f52;
+}
+.text--shop__sec {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  padding-left: 5px;
+}
+.ul--in--link {
+  display: flex;
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+.ul--in--link li {
+  padding-left: 23px;
+}
+.ul--in--link li a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: black;
+}
+.section--of--shop{
+    background: #f2f2f2;
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.shop{
+    background-color: white;
+}
+.plus{
+    width: 71px;
+height: 25px;
+border: solid 2px #FF8F52;
+display: flex;
+justify-content: space-around;
+}
+.img--of--bestSellers {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.costsFl {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #838383;
+  margin-left: 18px;
+}
+.cart--of--flower {
+  width: 287px;
+  height: 356px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.bottom--of--card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.img--telega {
+  width: 20.73px;
+  height: 18.86px;
+}
+.imgOfFlaw {
+  width: 253px;
+  height: 231px;
+  margin-left: 18px;
+  margin-top: 17px;
+}
+.addCard {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ff8f52;
+  cursor: pointer;
+}
+.addCard:hover{
+  color: black;
+}
+.nameOfFlawor {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-left: 18px;
+  height: 15px;
+}
+.div {
+  margin-right: 10px;
+}
+.sectionShop--flowers{
+  background: #F2F2F2;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.filter--section{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  height: 130px;
+  width: 1440px;
+  align-items: center;
+  background-color: white;
+}
+.filter--text{
+  display: flex;
+    align-content: center;
+    align-items: center;
+}
+.seacrhFl{
+  width: 491px;
+height: 56px;
+left: 474px;
+top: 160px;
+
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 5px;
+padding-left: 29px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #838383;
+}
+.seacrhFl:focus{
+  outline: none;
+}
+.shop{
+  width: 1200px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.payAll{
+  display: flex;
+  justify-content: center;
+}
+.text--shop__sec--sec {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  padding-left: 5px;
+}
+.resultOfPay{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button--to--pay{
+  width: 103px;
+  height: 40px;
+  background: #ff8f52;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  margin-top: 55px;
+  color: white;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+#mySelect{
+  width: 100px;
+  border: 3px solid #ff8f52;
+  border-radius: 7px;
+  outline: none;
+}
+

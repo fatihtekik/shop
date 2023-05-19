@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto&display=swap');
+
+body {
+    background: #DADADA;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main--login {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.login--main {
+    width: 976px;
+    height: 632px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.login--img {
+    width: 488px;
+    height: 632px;
+}
+
+.login--cart {
+    width: 488px;
+    height: 632px;
+    background-color: white;
+}
+
+.text--login {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.login {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.back--home {
+    display: flex;
+    align-items: center;
+}
+
+.home--png {
+    width: 17px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.home--text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.home--text a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+.motivation--to--log {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #838383;
+    margin-left: 45px;
+    padding-top: 30px;
+}
+
+.username {
+    width: 391px;
+    height: 63px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 14px;
+    padding-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.username::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #838383;
+}
+
+.password::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #838383;
+}
+
+.password {
+    width: 391px;
+    height: 63px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    margin-top: 20px;
+    outline: none;
+    padding-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.login--btn {
+    width: 391px;
+    height: 57px;
+    background: #FF8F52;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+.inputs--login {
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.dont--have--acc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 90px;
+    color: #838383;
+}
+
+.dont--have--acc a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #FF8F52;
+}

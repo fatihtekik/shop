@@ -1,0 +1,315 @@
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto&display=swap");
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    width: 1440px;
+    margin: 0 auto;
+  }
+  .header--header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: rgba(250, 250, 250, 0.824);
+    height: 100px;
+  }
+  .text--shop {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #ff8f52;
+  }
+  .text--shop__sec {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    padding-left: 5px;
+  }
+  .ul--in--link {
+    display: flex;
+    list-style: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .ul--in--link li {
+    padding-left: 23px;
+  }
+  .ul--in--link li a {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: black;
+  }
+  .section--flowers {
+    width: 1440px;
+    margin: 0 auto;
+    background: #f2f2f2;
+    display: flex;
+    height: 600px;
+  }
+  .div--flowers {
+    display: flex;
+    margin: 0 auto;
+    width: 1145px;
+    justify-content: space-between;
+    margin-top: 55px;
+  }
+  .flowers--text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    width: 340px;
+    height: 212px;
+  }
+  .motivation--on--flowers {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #838383;
+    padding-top: 40px;
+  }
+  .btn--to--browseFlowers {
+    width: 103px;
+    height: 40px;
+    background: #ff8f52;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 55px;
+    color: white;
+  }
+  .flowers--png {
+    width: 616px;
+    height: 400px;
+  }
+  .best--sellersFlower {
+    width: 1440px;
+    margin: 0 auto;
+    background: #f2f2f2;
+  }
+  .top--of--site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2--bestsellers {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+  }
+  .img--of--bestSellers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+  .costsFl {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #838383;
+    margin-left: 18px;
+  }
+  .cart--of--flower {
+    width: 287px;
+    height: 356px;
+    background-color: white;
+  }
+  .bottom--of--card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .img--telega {
+    width: 20.73px;
+    height: 18.86px;
+  }
+  .imgOfFlaw {
+    width: 253px;
+    height: 231px;
+    margin-left: 18px;
+    margin-top: 17px;
+  }
+  .addCard {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ff8f52;
+    cursor: pointer;
+  }
+  .addCard:hover{
+    color: black;
+  }
+  .nameOfFlawor {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 18px;
+  }
+  .div {
+    margin-right: 10px;
+  }
+  .posts {
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  .post {
+    width: 377px;
+    height: 478px;
+    background-color: white;
+  }
+  .last--posts--abFlowers {
+    width: 1440px;
+    margin: 0 auto;
+    background: #f2f2f2;
+  }
+  .top--of--post {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .dataofpost {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+    text-align: center;
+  }
+  .authoOfPost {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 5px;
+  }
+  .topicOfPost {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 10px;
+  }
+  .deskOfPost {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #838383;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .linkToThePost {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  .footer--flower {
+    width: 1440px;
+    margin: 0 auto;
+    background: #454545;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      height: 300px;
+  }
+  .DeskcAboutFlaw {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    color: #d9d9d9;
+  }
+  .loginLink a {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    color: #d9d9d9;
+  }
+  .links li {
+    list-style: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    color: #d9d9d9;
+  }
+  .abFlaw{
+      width: 382px;
+  height: 229px;
+  }
+  .link--word{
+      font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+  }
+  .p--footer{
+      list-style: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    color: #d9d9d9;
+  }
